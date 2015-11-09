@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    {{ parent() }}
+    <div>
+        <form id ="fr" method="post" action="{{ path('app_calculator_doMul') }}">
+            <input type="number" name="op1"><br/>
+            <input type="number" name="op2"><br/>
+            <input type="submit" value="multiplicación"><br/>
+        </form>
+
+    </div>
+
+{% endblock %}
+
+
+
+
+
+{% block stylesheets %}
+    <style>
+        div{
+            font-size: 15px;
+        }
+    </style>
+{% endblock %}

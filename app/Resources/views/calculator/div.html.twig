@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    {{ parent() }}
+    <div>
+        <h4><form id ="fr" method="post" action="{{ path('app_calculator_doDiv') }}">
+            <input type="number" name="op1"><br/>
+            <input type="number" name="op2"><br/>
+            <input type="submit" value="división"><br/>
+        </form></h4>
+
+    </div>
+
+{% endblock %}
+
+
+
+
+
+
+
