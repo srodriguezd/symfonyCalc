@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: korp
- * Date: 27/10/15
- * Time: 17:17
- */
+
 namespace AppBundle\Service;
 
 
